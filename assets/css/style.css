@@ -510,10 +510,7 @@ body {
   transition: var(--transition-2);
 }
 
-.gallery-card:is(:hover, :focus-within) .card-content {
-  opacity: 1;
-  transform: scale(1);
-}
+
 
 .gallery-card :is(.card-title, .card-text) { color: var(--white); }
 
@@ -527,10 +524,7 @@ body {
   transition: var(--transition-1);
 }
 
-.gallery-card .card-btn:is(:hover, :focus) {
-  background-color: var(--indian-yellow);
-  color: var(--white);
-}
+
 
 
 
